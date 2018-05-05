@@ -6,7 +6,7 @@ boxName = "ansible-snp"
 
 boxAnsible = "ansible/ansible.cfg"
 boxInventory = "ansible/inventory"
-boxPlaybook = "dev.yml"
+boxPlaybook = "ansible/dev.yml"
 
 Vagrant.configure("2") do |config|
 
