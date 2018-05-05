@@ -2,7 +2,7 @@
 # vi: set ft=ruby :
 
 box = "ubuntu/xenial64"
-boxName = "ansible-snp"
+boxName = "ansible-test"
 
 boxAnsible = "ansible/ansible.cfg"
 boxInventory = "ansible/inventory"
