@@ -11,7 +11,7 @@ boxPlaybook = "dev.yml"
 Vagrant.configure("2") do |config|
 
   config.vm.box = box
-
+  config.vm.box_check_update = false
   config.vm.define boxName do |xenialtest|
     xenialtest.vm.hostname = boxName
     xenialtest.vm.network "private_network", type: "dhcp"
